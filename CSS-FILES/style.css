@@ -100,7 +100,7 @@ form{
 }
 
 /* phones(tablets and large phones) */
-@media only screen and (min-width:400px) {
+@media only screen and (min-width:500px) {
     body{background-color: black;}
 }
 
@@ -114,6 +114,5 @@ body{background-color: rgba(0, 0, 0, 0.541);}
     body{background-color: blue;}
     
 }
-    
 
     
