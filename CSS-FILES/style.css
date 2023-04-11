@@ -1,0 +1,119 @@
+.header{
+    padding: o 50px;
+    color: beige;
+    display: flex;
+    border:4px solid ;
+    border:rgba(255, 235, 205, 0.76);
+    text-align: right;
+    margin-left: 20px;
+    position: relative;
+    text-decoration: none;
+}
+
+
+img{
+    max-width: 350px;
+    float: left;
+    border: 4px solid black;
+    border: radius 65%;
+    margin-right: 25px; 
+    
+}
+
+body{
+background-image:url(/CAPSTONE-PROJECT-IMAGES/pexels-photo-.jpeg) ;
+background-size: cover;
+color: beige;
+display: grid;
+grid-template-columns: 45% 45%;
+grid-column-gap: 44px;
+margin-bottom: 78px;
+align-content: center;
+text-decoration-style: none;
+list-style: none;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    color:black;
+    background-color:bisque;
+    border: 3px solid blanchedalmond;
+    max-width: 1800px;
+    height: 40px;
+    
+}
+ li{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-style: oblique;
+}
+nav{
+    font: size 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    text-align: justify;
+
+}
+
+.form-box{
+
+width: 500px;
+font-family: Arial, Helvetica, sans-serif;
+box-shadow: 0 0 20px 0;
+top: 50%;
+left: 50%;
+transform: translate(-50% -50%);
+position: absolute;
+text-align: top left;
+}
+
+form{
+    margin: 35px;
+}
+.input-field{
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    outline: none;
+}
+
+.textarea-field{
+
+    height: 135px;
+    padding-top: 12px;
+
+}
+.btn{
+    margin-top: 55px;
+    margin-left: 50px;
+    padding: 10px;
+    color: beige;
+    font-size: 12px;
+    border: none;
+    background-color: blue;
+    cursor: pointer;
+
+}
+
+/* phones(tablets and large phones) */
+@media only screen and (min-width:400px) {
+    body{background-color: black;}
+}
+
+/*medium deviceslandscape tablets  */
+@media only screen and(min-width:750px) {
+body{background-color: rgba(0, 0, 0, 0.541);}
+}
+
+/* desktops and laptops */
+@media only screen and(min-width:1300px) {
+    body{background-color: blue;}
+    
+}
+    
+
+    
