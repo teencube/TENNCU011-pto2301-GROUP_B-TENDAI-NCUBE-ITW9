@@ -9,7 +9,7 @@
     position: relative;
     text-decoration: none;
 }
-
+/* styling for image */
 
 img{
     max-width: 350px;
@@ -19,7 +19,7 @@ img{
     margin-right: 25px; 
     
 }
-
+/*body styling using grid  */
 body{
 background-image:url(/CAPSTONE-PROJECT-IMAGES/pexels-photo-.jpeg) ;
 background-size: cover;
@@ -30,10 +30,10 @@ grid-column-gap: 44px;
 margin-bottom: 78px;
 align-content: center;
 text-decoration-style: none;
-list-style: none;
+list-style: none
 }
 
-
+/*headings styling  */
 h1,h2,h3,h4,h5,h6{
     color:black;
     background-color:bisque;
@@ -55,7 +55,7 @@ nav{
     text-align: justify;
 
 }
-
+/* frorm styling */
 .form-box{
 
 width: 500px;
@@ -87,6 +87,7 @@ form{
     padding-top: 12px;
 
 }
+/* styling the submit button */
 .btn{
     margin-top: 55px;
     margin-left: 50px;
@@ -98,10 +99,13 @@ form{
     cursor: pointer;
 
 }
+/* responsiveness */
 
 /* phones(tablets and large phones) */
-@media only screen and (min-width:500px) {
-    body{background-color: black;}
+@media only screen and (min-width:600px) {
+    body{background-color: black;
+    width: 100%;
+    }
 }
 
 /*medium deviceslandscape tablets  */
@@ -115,4 +119,10 @@ body{background-color: rgba(0, 0, 0, 0.541);}
     
 }
 
-    
+    /* form responsive layout */
+    @media only screen and (max-width:500px){
+        .form-box{width: 100%;
+            margin-top: 0;
+
+        }
+    }
